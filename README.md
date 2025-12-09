@@ -23,5 +23,5 @@ O sistema permite **criar, listar, editar e excluir usuários** (CRUD).
 -nodemon server.js 
 
 ### Front End
-- nom run dev
+- npm run dev
 (acessar o link ex: http://localhost:5173/ )
