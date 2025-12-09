@@ -1,0 +1,80 @@
+.user-card {
+  background-color: #2E2D4E;
+  padding: 18px;
+  width: 380px;
+  border-radius: 12px;
+  margin-bottom: 14px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  transition: 0.25s ease;
+  cursor: pointer;
+
+  opacity: 0;
+  transform: translateY(15px);
+  animation: cardAppear 0.4s forwards ease-out;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* ANIMAÇÃO DE APARIÇÃO */
+@keyframes cardAppear {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* INFORMAÇÕES DO USUÁRIO */
+.user-info p {
+  color: #fff;
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+/* ÁREA DOS BOTÕES */
+.user-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* BOTÃO EDITAR */
+.btn-edit {
+  background-color: #8B8AE1;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.btn-edit:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* BOTÃO EXCLUIR */
+.btn-delete {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.btn-delete:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}

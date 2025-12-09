@@ -1,0 +1,16 @@
+*{
+  margin: 10;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  height: 100vh; /* ocupa toda a altura da tela */
+  margin: 0;     /* remove margens padrão */
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;     /* centraliza verticalmente */
+  background-color: #1e1e2f; /* opcional: cor de fundo */
+}
+
