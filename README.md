@@ -25,3 +25,12 @@ O sistema permite **criar, listar, editar e excluir usuários** (CRUD).
 ### Front End
 - npm run dev
 (acessar o link ex: http://localhost:5173/ )
+### link do servidor:
+https://github.com/nettolima7/servidor-usuarios.git
+---------------------------------------------------
+### Front End
+- nom run dev
+(acessar o link ex: http://localhost:5173/ )
+
+### Video Explicativo:
+https://drive.google.com/file/d/1yoyzm4uqyjMur195WnNN4LlwSgFfXaQF/view?usp=sharing
